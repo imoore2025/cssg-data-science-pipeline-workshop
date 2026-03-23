@@ -1,0 +1,5 @@
+# Core dependencies for the CS+ Social Good Data Science Pipeline Workshop
+pandas
+matplotlib
+seaborn
+jupyter
