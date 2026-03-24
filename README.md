@@ -81,24 +81,56 @@ pip install -r requirements.txt
 ## Getting Started
 
 1. Clone the repository
-git clone https://github.com/[imoore2025]/cssg-data-science-pipeline-workshop.git
-
+```bash
+git clone https://github.com/imoore2025/cssg-data-science-pipeline-workshop.git
+cd cssg-data-science-pipeline-workshop
+```
 
 2. Navigate into the project folder
 cd cssg-data-science-pipeline-workshop
 
 
-3. Install dependencies
+3. Create a virtual environment
+
+```bash
+python -m venv .venv
+```
+
+4. Activate the virtual environment
+
+### Git Bash
+```bash
+source .venv/Scripts/activate
+```
+
+### Command Prompt
+```bash
+.venv\Scripts\activate
+```
+
+### PowerShell
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+
+5. Install dependencies
 pip install -r requirements.txt
 
-4. Launch Jupyter Notebook
+6. Launch Jupyter Notebook
 jupyter notebook
 
 
-5. Open:
+7. Open:
 notebooks/titanic_pipeline_workshop.ipynb
 
+### Note:
+If the above setup doesn't work, an alternative setup is:
+- run the setup script in setup.sh for Git Bash users.
 
+or
+
+- run te setup seript in setup.ps1 for Powershell users.
 ---
 
 ## Dataset
